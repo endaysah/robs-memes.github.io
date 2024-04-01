@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/page.css"> 
+    <title>rob's memes (@peepeepoopoo)</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <script src="/java/script.js"></script>
+</head>
+<body background="gradient-bckg.jpeg">
+    <a href="index.html">
+        <div class="plumbob">
+            <img src="images/plumbob.gif" alt="Spinning Plumbob" style="width:130px;height:130px;">
+        </div>
+    </a>
+    <h1>Rob's Memes</h1>
+    <h2>gen-z memes taken from twt, tiktok, insta, youtube, reddit (i am chronically online)</h2>
+
+   
+    <!--div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div-->
+    </div>
+
+    <div class="container">
+    <div class="main">
+        <!--img id="myImg" src="images/image1.jpg"-->
+        <img src="images/image1.jpg">
+        <img src="images/d_2.jpeg">
+        <img src="images/image3.jpeg">
+        <img src="images/image4.jpeg">
+        <img src="images/image5.jpeg">
+        <img src="images/image6.jpeg">
+        <img src="images/image7.jpeg">
+        <img src="images/image8.jpeg">
+
+        <img src="images/d_21.jpeg">
+        <img src="images/image2.jpeg">
+        <img src="images/d_3.jpeg">
+        <img src="images/d_4.jpeg">
+        <img src="images/d_5.jpeg">
+        <img src="images/d_6.jpeg">
+
+        <img src="images/n_80.jpg">
+        <img src="images/d_20.jpeg">
+        <img src="images/dd_32.jpg">
+        <img src="images/d_11.jpeg">
+        <img src="images/d_25.jpeg">
+        <img src="images/dd_43.jpg">
+        <img src="images/dd_33.jpg">
+        <img src="images/dd_34.jpg">
+        <img src="images/dd_37.jpg">
+        
+        <img src="images/dd_38.jpg">
+        <img src="images/dd_41.jpg">
+        <img src="images/d_1.jpeg">
+
+        <img src="images/dd_45.jpg">
+        <img src="images/n_70.jpg">
+        <img src="images/dd_46.jpg">
+        <img src="images/n_64.jpg">
+        <img src="images/dd_47.jpg">
+        <img src="images/n_92.jpg">
+        <img src="images/dd_49.jpg">
+        <img src="images/n_94.jpg">
+        <img src="images/dd_50.jpg">
+        <img src="images/n_57.jpg">
+        <img src="images/dd_51.jpg">
+        <img src="images/n_59.jpg">
+        <img src="images/dd_52.jpg">
+        <img src="images/n_61.jpg">
+        <img src="images/dd_54.jpg">
+        <img src="images/dd_55.jpg">
+        <img src="images/n_62.jpg">
+    
+        <img src="images/n_64.jpg">
+        <img src="images/n_68.jpg">
+        <img src="images/n_69.jpg">
+        <img src="images/n_70.jpg">
+        <img src="images/n_71.jpg">
+        <img src="images/n_72.jpg">
+        <img src="images/n_73.jpg">
+        <img src="images/n_74.jpg">
+
+        <img src="images/n_75.jpg">
+        <img src="images/d_17.jpeg">
+        <img src="images/n_76.jpg">
+        <img src="images/d_19.jpeg">
+        <img src="images/n_77.jpg">
+        <img src="images/n_78.jpg">
+        <img src="images/d_12.jpeg">
+        <img src="images/d_14.jpeg">
+        <img src="images/n_79.jpg">
+        <img src="images/d_23.jpeg">
+
+        <img src="images/n_82.jpg">
+        <img src="images/n_83.jpg">
+        <img src="images/n_84.jpg">
+        <img src="images/n_85.jpg">
+        <img src="images/n_89.jpg">
+        <img src="images/n_90.jpg">
+        <img src="images/n_91.jpg">
+        <img src="images/n_92.jpg">
+        <img src="images/n_93.jpg">
+        <img src="images/n_94.jpg">
+        <img src="images/n_58.jpg">
+
+        <img src="images/n_95.jpeg">
+        <img src="images/n_96.jpeg">
+        <img src="images/n_97.jpeg">
+        <img src="images/n_98.jpeg">
+        <img src="images/n_99.jpeg">
+        <img src="images/n_100.jpeg">
+
+    </div>
+
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="images/image1.jpg" alt="drake" style="width:auto;height:auto;">
+    </div>
+
+    </div>
+
+    <h3> Last update: February 2024.</h3>
+
+    <script>
+        document.querySelectorAll('.main img').forEach(image =>{
+            //document.querySelector('.popup-image').style.display = 'block';
+            image.onclick = () =>{
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        }
+        );
+
+        document.querySelector('.popup-image span').onclick = () =>{
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+    </script>
+
+</body>

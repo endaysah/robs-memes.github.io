@@ -1,0 +1,87 @@
+body {
+    margin: 30px;
+    padding: 0;
+    /*background-color:white;
+    background: url('gradient-bckg.jpeg');*/
+    background-size: cover;
+}
+
+.lost-media {
+  color:white;
+  font-family: "bdr-mono", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 13px;
+  text-align: center;
+  text-shadow: 2px 1px 5px rgb(105, 105, 105);
+  position: sticky;
+  margin-top: 100px;
+}
+
+.header-1 {
+    color: rgb(235, 44, 27); 
+    font-family: "bdr-mono", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 150px;
+    text-shadow: 2px 2px 10px rgb(27, 55, 235);
+}
+
+.header-2 {
+    color: rgb(27, 55, 235); 
+    font-family: "bdr-mono", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 130px;
+    text-align: center;
+    margin-top: -80px;
+    text-shadow: 2px 2px 30px rgb(235, 44, 27);
+    
+}
+
+.sub-header {
+    color: rgb(235, 27, 141); 
+    font-family: "bdr-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -80px;
+
+}
+
+/*
+.btn {
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 200px;
+    margin: 1px 30px;
+  }
+  */
+
+  .click {
+    border-color: rgb(27, 235, 58);
+    background-color: rgb(27, 235, 58);
+    color: rgb(27, 55, 235);
+    margin-top: 0px;
+    font-family: "bdr-mono", sans-serif;
+    padding: 5px 20px;
+    display:block;
+    margin: 70px auto;
+  }
+  
+  .click:hover {
+    background-color: rgb(235, 27, 141);
+    color: white;
+    font-family: "bdr-mono", sans-serif;
+  }
+
+.img-one {
+  position: absolute;
+  margin-left: 10px; 
+}
